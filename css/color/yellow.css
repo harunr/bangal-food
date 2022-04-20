@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* Color yellow CSS */
+
+.yellow .logo_elixir {background:url("../../svgs/logo_elixir_yellow.svg");}
+.yellow #header .menu-item a:hover, .yellow #header .menu-item.current a {color: #ebe117;}
+
+.yellow h2.section-title:before, .yellow h2.section-title:after {color: #ebe117;}
+
+
+.yellow .slide-sep {background: url("../../images/color/slide-separator_yellow.png");}
+.yellow h2.section-title:before, .yellow h2.section-title:after {content: url("../../images/color/header_decorator_yellow.png");}
+
+.yellow section.timetable .column-divider{background-image: url("../../images/color/column-divider_yellow.png");}
+.yellow section.reservations h4 span:before,
+.yellow section.reservations h4 span:after {
+  border-bottom: 1px solid #ebe117;
+}
+.yellow .section.dark h2.section-title:before, .yellow .section.dark h2.section-title:after {content: url("../../images/color/header_decorator_yellow.png");}
+
+
+/* HOME SLIDER yellow LOGO */
+.yellow .logointro {background:url("../../images/color/logo_intro_yellow.png");}
+
+@media only screen and (max-width : 568px) {
+	.yellow .logointro {
+		width: 160px;
+		height: 137px;
+		background-size: cover;
+		margin-top: 160px;
+		margin-bottom: 10px;
+		
+}
+.yellow h2.section-title:before, .yellow h2.section-title:after, .yellow .section.dark h2.section-title:before, .yellow .section.dark h2.section-title:after {
+		content: none;
+	}
+}
+
+/* ABOUT yellow COLOR */
+.yellow h2.heading{color: #ebe117;}
+.yellow p.text strong {color: #ebe117;}
+
+/* OPENING HOURS yellow COLOR */
+.yellow section.timetable .section-subtitle {color: #ebe117;}
+.yellow section.timetable .section-subtitle.hours {color: #ffffff;}
+.yellow .timetable-decorator { background:url("../../images/color/timetable-decorator_yellow.png");}
+.yellow .timetable-decorator2 { background:url("../../images/color/timetable-decorator2_yellow.png");}
+
+/* MENU yellow COLOR */
+.yellow section.menu h3 {color: #ebe117;}
+.yellow section.menu span {color: #ebe117;}
+.yellow a.button.menu, .yellow .button.menu {
+	border: 2px solid #ebe117;
+	color: #ebe117;
+}
+.yellow a.button.menu:hover, .button.menu:hover {color: #ffffff; background: #ebe117;}
+
+.yellow section.menu .title {color: #ebe117;}
+.yellow section.menu .subtitle {color: #ebe117;}
+
+
+/* GALLERY yellow COLOR */
+.yellow nav.primary ul li a.selected span, .yellow nav.primary ul li a span:hover {border-bottom-color:#ebe117;}
+
+/* RESERVATIONS yellow COLOR */
+/*.yellow .reservations_logo {background:url("../../images/color/reservations_logo_yellow.png");}
+*/.yellow a.button, .yellow .button {border-color: #ebe117; color: #ebe117;}
+.yellow a.button:hover, .yellow .button:hover {background: #ebe117; color: #ffffff;}
+
+/* TESTIMONIALS yellow COLOR */
+/*.yellow .testimonials_img {background:url("../../images/color/testimonials_logo_yellow.png");}
+*/.yellow section.testimonials h2 {color: #ebe117;}
+.yellow .item span.author {color: #ebe117;}
+.yellow .carousel-wrapper.with_pagination .owl-theme .owl-controls .owl-page span {border-color: #ebe117;}
+.yellow .testimonials.carousel-wrapper.with_pagination .owl-controls .owl-page.active span, .yellow .testimonials.carousel-wrapper.with_pagination .owl-controls.clickable .owl-page:hover span {background: #ebe117;}
+/* CONTACT yellow COLOR */
+.yellow a.button.contact, .yellow .button.contact {color: #ffffff; background: #ebe117;}
+.yellow a.button.contact:hover, .yellow .button.contact:hover {color: #ebe117; background: #ffffff;}
+
+/* FOOTER yellow COLOR */
+.yellow #footer .social li .icon:hover {background:#ebe117;}
